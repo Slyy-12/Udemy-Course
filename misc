@@ -1,0 +1,5 @@
+wiaitng_list = ["sen", "ben", "john"]
+
+for index, item in enumerate(wiaitng_list):
+    row = f"{index}.{item.capitalize()}"
+    print(row)
